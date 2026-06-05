@@ -31,10 +31,10 @@ console.log(pc.cyan('    Architected by @lakshanmuruganandam\n'));
 
 try {
   const gitLog = execSync('git log -n 30 --pretty=format:"%h - %s"', { encoding: 'utf-8' });
-  const commits = gitLog.split('\\n').filter(Boolean);
+  const commits = gitLog.split('\n').filter(Boolean);
 
   if (commits.length === 0) {
-    console.log(pc.yellow('✨ No commits found. You haven\\'t even started. Roast averted.'));
+    console.log(pc.yellow("✨ No commits found. You haven't even started. Roast averted."));
     process.exit(0);
   }
 
