@@ -61,7 +61,7 @@ try {
     }
   });
 
-  console.log(pc.bold(pc.white('🔥 Analyzing your last 30 commits...\\n')));
+  console.log(pc.bold(pc.white('🔥 Analyzing your last 30 commits...\n')));
 
   setTimeout(() => {
     if (badCommits.length === 0) {
