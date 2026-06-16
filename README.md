@@ -33,9 +33,3 @@ commit-roast
 
 ## 📜 License
 MIT License. Created by @lakshanmuruganandam.
-
-
-### 🧠 AI Engine & Model Architecture
-This system is explicitly powered by **`meta-llama/Meta-Llama-3-70B-Instruct`**.
-
-Rather than relying on closed-source APIs, we custom-engineered this agent to leverage the specific strengths of `meta-llama/Meta-Llama-3-70B-Instruct`. This allows the agent to process complex inputs with significantly lower latency and higher accuracy, ensuring enterprise-grade performance while remaining entirely open-source.
